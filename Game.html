@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style >
+		body {
+    		position: relative;
+		}
+		h3 {
+
+			position: absolute;
+    		top: 10px;
+    		left: 10px;
+    		color: white;
+		}
+		h4{
+			position: absolute;
+			top: 10px;
+			right :200px;
+			color: white;
+		}
+		button {
+			position: absolute;
+			right: 35px;
+		    background-color: #3175e2;
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+		}
+		p{
+			position: absolute;
+			right: 20px;
+			top: 60px;
+			color: red;
+			font-family: "Times New Roman", Times, serif;
+		}
+		h1{
+			position: absolute;
+    		top: 300px;
+    		right: 190px;
+    		color: orange;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<button onclick="Start()">Start</button>
+	<h3 id="points"></h3>
+	<h4 id="lifes"></h4>
+	<h1 id="sub"></h1>
+	<p id="bossH"></p>
+	<script src="game.js"></script>
+</body>
+</html>
